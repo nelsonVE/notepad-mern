@@ -18,3 +18,5 @@ To setup the project you'll need to update the project and run the sv. Something
     cd ./frontend
     npm update
     npm start
+
+Special thanks to Fazt code: https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA
