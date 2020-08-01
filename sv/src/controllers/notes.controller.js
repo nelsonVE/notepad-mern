@@ -12,6 +12,7 @@ notesController.createNote = async (req, res) => {
     const note = new Note({
         title: title,
         content: content,
+        date: date,
         author: author
     });
 
@@ -27,6 +28,7 @@ notesController.updateNote = async (req, res) => {
     const note = await Note.findOneAndUpdate(id, {
         title,
         author,
+        date,
         content
     });
 
